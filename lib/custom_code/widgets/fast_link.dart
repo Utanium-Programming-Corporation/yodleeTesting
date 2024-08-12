@@ -100,7 +100,7 @@ class _FastLinkState extends State<FastLink> {
     }
 
     if (eventData["type"] == "POST_MESSAGE") {
-      String action = eventData["data"]["action"];
+      String? action = eventData["data"]["action"];
 
       if (action == "exit") {
         //User has clicked the close button
