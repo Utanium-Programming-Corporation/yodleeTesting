@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88647450412",
+    "project_id": "yodleetestingred",
+    "storage_bucket": "yodleetestingred.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88647450412:android:5013eb341eecf980413689",
+        "android_client_info": {
+          "package_name": "com.mycompany.plaidtesting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBws2ApTzjsD5LCMzQ1HOvVAPxcLjZLYg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
