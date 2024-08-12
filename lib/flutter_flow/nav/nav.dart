@@ -120,6 +120,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ParamType.String,
             ),
           ),
+        ),
+        FFRoute(
+          name: 'fastLink',
+          path: '/fastLink',
+          builder: (context, params) => FastLinkWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

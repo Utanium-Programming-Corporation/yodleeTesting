@@ -76,8 +76,8 @@ class _EmptyLinksWidgetState extends State<EmptyLinksWidget> {
               ),
             ),
             FFButtonWidget(
-              onPressed: () {
-                print('LinkButton pressed ...');
+              onPressed: () async {
+                context.pushNamed('fastLink');
               },
               text: 'Link New Bank Account',
               options: FFButtonOptions(
